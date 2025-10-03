@@ -4,18 +4,21 @@ Este repositório contém a solução completa para o teste técnico de Análise
 
 ## Estrutura do Projeto
 
-```bash
 O projeto está organizado da seguinte forma:
+
+```bash
 ├── data/                     # Diretório para armazenar os datasets (não versionado)
 ├── notebooks/
-│   └── analise_vendas.ipynb  # Notebook com a análise exploratória, visualizações e SQL
+│   └── analise_vendas.ipynb  # Notebook com a análise exploratória, visualizações
+├── sql/
+│   └── consultas_sql.sql  # Arquivo SQL com as consultas necessárias
 ├── src/
 │   ├── generate_dataset.py   # Script para gerar o dataset bruto (raw)
 │   └── clean_dataset.py      # Script para limpar o dataset e salvá-lo em data/
-├── .gitignore                # Arquivo para ignorar arquivos e diretórios (ex: data/, venv/)
-├── LICENSE                   # Licença do projeto
-├── README.md                 # Este arquivo de documentação
 ├── relatorio_insights.md     # Relatório com insights e ações
+├── README.md                 # Este arquivo de documentação
+├── .gitignore                # Arquivo para ignorar arquivos e diretórios (ex: data/*, venv/)
+├── LICENSE                   # Licença do projeto
 └── requirements.txt          # Lista de dependências Python
 ```
 
